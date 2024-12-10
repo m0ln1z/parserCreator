@@ -1,0 +1,21 @@
+{
+  "name": "Prodvig HeadHunter",
+  "description": "Парсер",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "icons": {},
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
